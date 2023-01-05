@@ -582,7 +582,7 @@
     padding-top: 50px;
   }
   .form-lbl {
-    background-color: aquamarine;
+    color: white;
     width: 150px;
     height: 150px;
     display: inline;
@@ -595,7 +595,6 @@
   .form-input {
     line-height: 30px;
     text-align: center;
-    background-color: blue;
     width: auto;
     height: 150px;
   }
