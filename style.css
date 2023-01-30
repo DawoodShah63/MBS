@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap");
 
 /* lessthan 510px width */
-@media screen and (max-width: 510px) {
+@media screen and (max-width: 511px) {
   html {
     scroll-behavior: smooth;
   }
@@ -9,14 +9,13 @@
     margin: 0;
     padding: 0;
   }
+  
   .main-menu ul {
     padding-left: 0;
     margin-top: 0;
     background-color: rgb(144, 118, 230);
-    opacity: 0.7;
     width: 100%;
     margin-bottom: 0;
-    position: fixed;
     display: flex;
     justify-content: space-around;
   }
@@ -30,6 +29,7 @@
     font-weight: bold;
     text-shadow: none;
     line-height: 30px;
+    
   }
   .main-menu ul li a {
     text-decoration: none;
@@ -170,6 +170,21 @@
     font-family: serif;
     line-height: 25px;
   }
+  
+  .logo{
+   display: none; 
+  }
+  .logo-mobi{
+    width: 100%;
+    padding: 0;
+    margin-top: 0;
+    background-color: rgb(144, 118, 230);  
+    margin-bottom: 0;
+    text-align: center;
+  }
+  .logo-mobi img{
+    width: 150px
+  }
 }
 
 /* width from 512 to 800 */
@@ -192,10 +207,8 @@
     padding-left: 0;
     margin-top: 0;
     background-color: rgb(144, 118, 230);
-    opacity: 0.7;
     width: 100%;
     margin-bottom: 0;
-    position: fixed;
     display: flex;
     justify-content: center;
   }
@@ -368,6 +381,20 @@
   .upper {
     text-transform: uppercase;
   }
+  
+  .logo{
+    display: none; 
+   }
+   .logo-mobi{
+     width: 100%;
+     padding: 0;
+     margin:0;
+     background-color: rgb(144, 118, 230);  
+     text-align: center;
+   }
+   .logo-mobi img{
+     width: 160px
+   }
 }
 
 /* morethan 801px width */
@@ -609,6 +636,13 @@
     height: 50px;
     border-radius: 8px;
     padding: 5px;
+  }
+  .logo{
+    width: 150px;
+    
+  }
+  .logo-mobi{
+    display: none;
   }
 }
 
